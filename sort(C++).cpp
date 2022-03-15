@@ -11,7 +11,7 @@ void sapxep(int a[]){
 int main(){
 	int *a=new int[MAX];
 	ifstream file ;
-	file.open("bodulieu1.txt");
+	file.open("bodulieu.txt");
 	cout<<"Sort(C++)"<<endl; 
 	for(int i=1;i<=10;i++){
 		for (int j=0;j<MAX;j++){
